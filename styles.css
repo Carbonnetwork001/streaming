@@ -185,6 +185,11 @@ footer{
     color: white;
 }
 
+.a{
+    text-decoration: none;
+    color: black;
+}
+
 .lang button{
     border: 1px solid white;
     height: fit-content;
