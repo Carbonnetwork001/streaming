@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UPLOAD PAGE</title>
     <style>
+        body{
+            background-color: rgb(60, 59, 65);
+        }
         header{
             display: flex;
             padding: 10px;
@@ -29,8 +32,8 @@
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         }
 
-    .container {display: flex;
-    border: 1px solid goldenrod;
+    .container {
+    display: flex;
     padding: 20px;
     gap: 20px;
     flex-wrap: wrap;
@@ -76,6 +79,107 @@
     font-style: normal;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
+}
+.container {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.box p{
+    color: white;
+    padding-top: 1px;
+}
+
+.box{
+    background-color: rgb(56, 55, 55);
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: left;
+    display: flex;
+    color: white;
+    padding: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+   }
+
+.box button{
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+
+.box2{
+    background-color: rgb(56, 55, 55);
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: left;
+    display: flex;
+    color: white;
+    padding-top: 5px;
+    padding-left: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+.box2 button{
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+
+.lang{
+    margin: 15px;
+}
+
+.lang span{
+    margin: 10px;
+    display:inline-block;
+    color: white;
+}
+
+.a{
+    text-decoration: none;
+    color: black;
+}
+
+.lang button{
+    border: 1px solid white;
+    height: fit-content;
+    width: auto;
+    background-color: rgb(70, 70, 70);
+    display: inline-block;
+
+}
+
+.lang p{
+    color: white;
+    display: inline-block;
+}
+
+.icon {
+font-size: 24px;
+margin: 10px;
+cursor: pointer;
+}
+
+.icon img{
+    height: 20px;
+    color: white;
+}
+
+.icon span{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+footer{
+    background-color: #331b1b;
 }
          /* Hamburger icon styles (previously defined) */
 
@@ -136,7 +240,7 @@
     </div>
 <span>CARBON CREATORS</span>
 <span><a href="./reg.html">CREATE ACCOUNT/</a></span>
-<span><a href="./log.html">LOGIN</a></span> 
+<span><a href="./login.html">LOGIN</a></span> 
 </header>
 <hr>
 <h2>Please select your upload type:</h2>
@@ -155,5 +259,43 @@
     <span>NON-MUSICAL</span>
 </div>
 </div>
+<footer>
+    <div class="container">
+        <div class="icon">
+            <img src="./images/images.png">
+            <span>Carbon</span>
+        </div>
+        <div class="icon">
+            <img src="./images/home icon.webp">
+            <span>Home</span>
+        </div>
+        <div class="icon">
+            <img src="./images/images (1).png">
+            <span>Search</span>
+        </div>
+    <div class="icon">
+       <img src="./images/library_4130503.png">
+       <span>YOUR LIBRARY</span> 
+       <img src="./images/add.png">
+    </div><br>
+    <div class="box">
+        <span>Create your first playlist
+            It's easy,we'll help you
+        </span><br>
+        <span></span><br>
+        <button>Create playlist</button>
+    </div>
+    <div class="box2">
+        <div class="lang">
+        <span>legal</span>
+        <span>privacy center</span>
+        <span>Privacy Policy</span>
+        <span>Cookies</span>
+        <span>About Ads</span>
+        <span>Accessibility</span>
+        <button><p>Language:</p><p>English</p></button>
+        </div><br> 
+</div>
+</footer>
 </body>
 </html>

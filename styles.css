@@ -82,7 +82,7 @@ footer{
 }
 
 .header {
-    background-color: #640b0b;
+    background-color: #663434;
     color: #fff;
     padding: 1em;
     justify-content: center;
@@ -232,7 +232,7 @@ cursor: pointer;
     .header span {
         padding-left: 0; /* Remove left padding on smaller screens */
         font-size: 15px;
-        color: black;
+        color: rgb(0, 0, 0);
         font-weight: bolder;
         text-align: center;
     }
